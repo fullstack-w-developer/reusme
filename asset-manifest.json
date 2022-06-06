@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reusme/static/css/main.925955f5.chunk.css",
-    "main.js": "/reusme/static/js/main.f07fa724.chunk.js",
-    "main.js.map": "/reusme/static/js/main.f07fa724.chunk.js.map",
+    "main.css": "/reusme/static/css/main.aadcbbc9.chunk.css",
+    "main.js": "/reusme/static/js/main.dcb6c743.chunk.js",
+    "main.js.map": "/reusme/static/js/main.dcb6c743.chunk.js.map",
     "runtime-main.js": "/reusme/static/js/runtime-main.bc814923.js",
     "runtime-main.js.map": "/reusme/static/js/runtime-main.bc814923.js.map",
     "static/css/2.d2029593.chunk.css": "/reusme/static/css/2.d2029593.chunk.css",
-    "static/js/2.5d26acb7.chunk.js": "/reusme/static/js/2.5d26acb7.chunk.js",
-    "static/js/2.5d26acb7.chunk.js.map": "/reusme/static/js/2.5d26acb7.chunk.js.map",
+    "static/js/2.5bff89a2.chunk.js": "/reusme/static/js/2.5bff89a2.chunk.js",
+    "static/js/2.5bff89a2.chunk.js.map": "/reusme/static/js/2.5bff89a2.chunk.js.map",
     "index.html": "/reusme/index.html",
     "static/css/2.d2029593.chunk.css.map": "/reusme/static/css/2.d2029593.chunk.css.map",
-    "static/css/main.925955f5.chunk.css.map": "/reusme/static/css/main.925955f5.chunk.css.map",
-    "static/js/2.5d26acb7.chunk.js.LICENSE.txt": "/reusme/static/js/2.5d26acb7.chunk.js.LICENSE.txt",
+    "static/css/main.aadcbbc9.chunk.css.map": "/reusme/static/css/main.aadcbbc9.chunk.css.map",
+    "static/js/2.5bff89a2.chunk.js.LICENSE.txt": "/reusme/static/js/2.5bff89a2.chunk.js.LICENSE.txt",
     "static/media/1.b69240ab.webp": "/reusme/static/media/1.b69240ab.webp",
     "static/media/2.c07d9b5b.webp": "/reusme/static/media/2.c07d9b5b.webp",
     "static/media/3.5a8d7b16.webp": "/reusme/static/media/3.5a8d7b16.webp",
@@ -22,7 +22,7 @@
     "static/media/8.73a04499.webp": "/reusme/static/media/8.73a04499.webp",
     "static/media/9.f9fc9929.webp": "/reusme/static/media/9.f9fc9929.webp",
     "static/media/index.css": "/reusme/static/media/IRANYekanRegular.f7295bcf.ttf",
-    "static/media/MyResume.ef6a55e9.pdf": "/reusme/static/media/MyResume.ef6a55e9.pdf",
+    "static/media/MyReusme.a80e59c1.pdf": "/reusme/static/media/MyReusme.a80e59c1.pdf",
     "static/media/flag-icon.min.css": "/reusme/static/media/zw.f5ceeff7.svg",
     "static/media/bootstrap.527d0fc0.svg": "/reusme/static/media/bootstrap.527d0fc0.svg",
     "static/media/css.3ec32022.svg": "/reusme/static/media/css.3ec32022.svg",
@@ -34,6 +34,7 @@
     "static/media/javascript.ba40d6a9.svg": "/reusme/static/media/javascript.ba40d6a9.svg",
     "static/media/material.741a52f5.svg": "/reusme/static/media/material.741a52f5.svg",
     "static/media/mongodb.3beac5ba.svg": "/reusme/static/media/mongodb.3beac5ba.svg",
+    "static/media/next.c598b80e.png": "/reusme/static/media/next.c598b80e.png",
     "static/media/node.cccdafa9.svg": "/reusme/static/media/node.cccdafa9.svg",
     "static/media/react.ae626225.svg": "/reusme/static/media/react.ae626225.svg",
     "static/media/skype.8559faf5.svg": "/reusme/static/media/skype.8559faf5.svg",
@@ -43,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.bc814923.js",
     "static/css/2.d2029593.chunk.css",
-    "static/js/2.5d26acb7.chunk.js",
-    "static/css/main.925955f5.chunk.css",
-    "static/js/main.f07fa724.chunk.js"
+    "static/js/2.5bff89a2.chunk.js",
+    "static/css/main.aadcbbc9.chunk.css",
+    "static/js/main.dcb6c743.chunk.js"
   ]
 }
