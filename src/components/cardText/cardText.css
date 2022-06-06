@@ -1,0 +1,140 @@
+.card-text {
+  width: 100%;
+  height: 250px;
+  border-radius: 1.5rem;
+  box-shadow: #5e51fe 0px 0px 3px 0px;
+  position: relative;
+}
+.text-read {
+  line-height: 200px;
+  cursor: pointer;
+}
+
+.animation-text-aboutMe-fa {
+  position: absolute;
+  top: -20%;
+  right: 0%;
+  transition: all 0.5s ease-in-out;
+  animation: text_fa 1s linear;
+}
+
+@keyframes text_fa {
+  0% {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
+  }
+  100% {
+    position: absolute;
+    top: -20%;
+    right: 0%;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.animation-text-explainMe-fa {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  transition: all 1s ease-in-out;
+  animation: text_explin_fa 1s linear;
+  padding: 0.75rem;
+}
+
+@keyframes text_explin_fa {
+  0% {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transition: all 1s ease-in-out;
+  }
+  100% {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transition: all 1s ease-in-out;
+  }
+}
+
+.animation-text-aboutMe-en {
+  position: absolute;
+  top: -20%;
+  left: 0%;
+  transition: all 0.5s ease-in-out;
+  animation: text_en 1s linear;
+}
+
+@keyframes text_en {
+  0% {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
+  }
+  100% {
+    position: absolute;
+    top: -20%;
+    left: 0%;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+.animation-text-explainMe-en {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transition: all 1s ease-in-out;
+  animation: text_explin_en 1s linear;
+  padding: 0.75rem;
+}
+
+@keyframes text_explin_en {
+  0% {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transition: all 1s ease-in-out;
+  }
+  100% {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transition: all 1s ease-in-out;
+  }
+}
+
+.animation-text-explainMe > p {
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.container-title{
+  display: grid;
+  place-items:center;
+  height:100%;
+}
+
+
+.title {background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)}
+.title {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   cursor: pointer;
+ }
+
+ .title:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+

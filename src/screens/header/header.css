@@ -1,0 +1,158 @@
+header {
+  height: fit-content;
+  background-color: #28475b !important;
+  padding-bottom: 0.95rem;
+}
+
+@media all and (max-width: 960px) {
+  header {
+    height: fit-content;
+  }
+  .menu_header {
+    display: none !important;
+  }
+  .personal__info > div {
+    margin-top: 3rem;
+  }
+}
+
+
+.menu_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_header > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.75rem;
+  flex: 20;
+}
+.menu_header > ul > li {
+  list-style: none !important;
+  color: white;
+  font-family: "yekanBold";
+  font-size: 1.2rem;
+  margin: 0 1.5rem;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5 ease;
+  padding: 0.5rem 1rem;
+}
+.menu_header > ul > li > a {
+  color: #fff;
+}
+.menu_header > ul > li:not(:first-child):hover {
+  background-color: rgba(241, 241, 241, 0.205);
+  padding: 0.5rem 1rem;
+  transition: all 0.5 ease;
+  border-radius: 0.75rem;
+}
+.menu_header > ul > li:first-child {
+  color: white;
+  font-size: 1.5rem;
+  font-family: "IRANYekanExtraBold";
+  margin: 0;
+}
+
+.container__image_ > a > img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.35rem;
+}
+
+.personal__info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
+}
+@media all and (max-width: 960px) {
+  .personal__info {
+    flex-direction: column-reverse;
+    padding: 0 !important;
+  }
+}
+.container__image_ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typecal_write {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+.typecal_write > p {
+  font-size: 0.95rem;
+  font-family: "yekanBold";
+  color: white;
+}
+
+.container__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.8rem;
+}
+.container__btn > button {
+  width: 8rem;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  padding: 0.25rem 0;
+  margin: 0 0.35rem;
+  border-radius: 8px;
+  font-family: "yekanBold";
+  color: white;
+}
+.container__btn > button > a {
+  color: #fff;
+}
+.container__btn > button:first-child {
+  background: #e74c3c;
+}
+.container__btn > button:first-child:hover {
+  background: #c0392b;
+}
+.container__btn > button:last-child {
+  background: #e67e22;
+}
+.container__btn > button:last-child:hover {
+  background: #d35400;
+}
+
+.container_avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 1px -1px white;
+  transform: scale(1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.container_avatar > div:hover {
+  transform: scale(1.135);
+  transition: all 1s ease;
+}
+
+.button_toggle_langage > button {
+  background-color: transparent !important;
+  border: hidden !important;
+  box-shadow: none !important;
+}
+.button_toggle_langage > button:hover {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.button_toggle_langage > button::after {
+  margin-right: 0.3rem !important;
+}

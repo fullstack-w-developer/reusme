@@ -1,0 +1,61 @@
+{
+  "name": "react-local",
+  "homepage": "http://mahdi-shariflo.github.io/reusme",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.4.1",
+    "@mui/material": "^5.4.1",
+    "@popperjs/core": "^2.9.0",
+    "@types/js-cookie": "^3.0.1",
+    "@types/react-slick": "^0.23.8",
+    "@types/use-persisted-state": "^0.3.1",
+    "bootstrap": "^5.0.0-beta2",
+    "classnames": "^2.2.6",
+    "flag-icon-css": "^3.5.0",
+    "i18next": "^19.9.0",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-http-backend": "^1.1.1",
+    "js-cookie": "^2.2.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^2.1.2",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^11.8.8",
+    "react-scripts": "^4.0.3",
+    "react-scrollspy": "^3.4.3",
+    "react-slick": "^0.28.1",
+    "react-typical": "^0.1.3",
+    "slick-carousel": "^1.8.1",
+    "typescript": "^4.5.5",
+    "use-persisted-state": "^0.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

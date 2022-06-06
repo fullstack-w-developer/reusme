@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "yekanBold";
+  src: url("./fonts/IRANYekanBold.ttf");
+}
+@font-face {
+  font-family: "IRANYekanExtraBold";
+  src: url("./fonts/IRANYekanExtraBold.ttf");
+}
+@font-face {
+  font-family: "IRANYekanReglour";
+  src: url("./fonts/IRANYekanRegular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #f1f1f1 !important;
+}
+
+.yekanBold {
+  font-family: "yekanBold";
+}
+.IRANYekanExtraBold {
+  font-family: IRANYekanExtraBold;
+}
+.IRANYekanReglour {
+  font-family: IRANYekanReglour;
+}
+.font75 {
+  font-size: 0.75rem;
+}
+.font80 {
+  font-size: 0.80rem;
+  text-align: justify;
+}
+.font85 {
+  font-size: 0.85rem;
+  text-align: justify;
+}
+.colorGoodNight {
+  color: #485460;
+}
+.draculaOrchid {
+  color: #2d3436;
+}
+.gray {
+  color: #a1a0a1 !important;
+}
+.text-white {
+  color: #fff !important;
+}
+
+.bgGray {
+  background-color: #b2bec3 !important;
+}
+
+.orange {
+  color: #ff793f;
+}
+
+ul {
+  padding-left: 0 !important;
+}
+
+
+.rtl {
+  direction: rtl !important;
+}
+.ltr {
+  direction: ltr !important;
+}
