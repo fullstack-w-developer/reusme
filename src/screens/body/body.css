@@ -152,6 +152,7 @@
   .container_tabMenu_resume {
     display: flex;
     flex-direction: column;
+    width: 90%;
   }
 }
 .container__icons_tab {
@@ -374,11 +375,7 @@
 }
 
 @media all and (max-width: 760px) {
-  .container_skills > div {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-  }
+
   .css_progress__ {
     padding-top: 2rem;
   }

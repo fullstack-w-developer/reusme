@@ -38,6 +38,9 @@ body {
 .font75 {
   font-size: 0.75rem;
 }
+.text-justify {
+  text-align: justify
+}
 .font80 {
   font-size: 0.80rem;
   text-align: justify;

@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 const Projects = () => {
   const { t } = useTranslation();
   return (
-    <div className="container_skills">
+    <div className="container_skills ">
       <h4 className="text-center IRANYekanExtraBold">
         {t("some_Work_samples")}
       </h4>
@@ -22,8 +22,8 @@ const Projects = () => {
           https://shop-next-shariflo.vercel.app
         </a>
       </div>
-      <div className="d-flex flex-column justify-content-center align-items-center px-3">
-        <p className="yekanBold font75 m-0 text-center">
+      <div className="d-flex flex-column justify-content-center align-items-center px-3 mt-5">
+        <p className="yekanBold font80 m-0 text-center">
           {t("link_second_work_")}
         </p>
         <a
@@ -43,8 +43,8 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="d-flex flex-column justify-content-center align-items-center px-4">
-        <p className="yekanBold font75 m-0 ">
+      <div className="d-flex flex-column mt-5 justify-content-center align-items-center px-4">
+        <p className="yekanBold font80 m-0 ">
           {t("link_three_work_")}
         </p>
         <a
@@ -55,8 +55,8 @@ const Projects = () => {
           https://mahdi-shariflo.github.io/azmoon-online
         </a>
       </div>
-      <div className="d-flex flex-column justify-content-center align-items-center px-4">
-        <p className="yekanBold font75">
+      <div className="d-flex flex-column mt-5 justify-content-center align-items-center px-4">
+        <p className="yekanBold font80">
           {t("link_four_work_")}
         </p>
         <a
@@ -68,13 +68,11 @@ const Projects = () => {
         </a>
       </div>
 
-      <div className="d-flex justify-content-around align-items-center">
-        <div>
-          <p className="yekanBold text-danger font75 m-0">
+    
+          <p className="yekanBold text-danger font75 text-center mt-3 m-0">
             {t("link_five_work_")}
           </p>
-        </div>
-      </div>
+ 
     </div>
   );
 };

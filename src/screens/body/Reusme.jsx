@@ -70,7 +70,7 @@ const Reusme = () => {
                   </Nav>
                 </div>
               </div>
-              <div>
+              <div className="mt-5">
                 <Tab.Content>
                   <Tab.Pane eventKey="three">
                     <Skills />
