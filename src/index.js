@@ -126,7 +126,7 @@ i18next
           Interests: "علاقه مندی",
           some_Work_samples: "برخی نمونه کارها",
           link_first_work_:
-            "این نمونه کار با فریمورک Next.js و پایگاه داده MongoDb پیاده سازی شده . توی این پروژه مهارت های SSR، تاثیر Next.js برای سئو و TypeScript, CssTaillwindرو پیاده کردم   و از CotextApi برای نشان داده اسم کاربر بعد از ورود و تعداد کالا های موجود در سبد خرید کاربر استفاده کردم.",
+            "این نمونه کار با فریمورک Next.js و پایگاه داده MongoDb پیاده سازی شده . توی این پروژه مهارت های SSR، تاثیر Next.js برای سئو و TypeScript, CssTaillwindرو پیاده کردم   و  به ترتیب از Atom , redaux و contextApi برای مدیریت state استفاده کردم.",
           link_second_work_:
             "پروژه اول و دوم با هدف  Responsive design طراحی شده  و هیچی داده ای در اون رد و بدل نمیشه.",
           link_three_work_: `این پروژه یه پروژه Fullstack هست.

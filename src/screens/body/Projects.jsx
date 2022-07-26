@@ -16,11 +16,26 @@ const Projects = () => {
         </p>
         <a
           className="mt-3"
+          href="https://clone-shop-okala.vercel.app/"
+          style={{ color: "#0096f5" }}
+        >
+          https://clone-shop-okala.vercel.app
+        </a>
+        <a
+          className="mt-3"
+          href="https://nextjs-pinterest.vercel.app/"
+          style={{ color: "#0096f5" }}
+        >
+         https://nextjs-pinterest.vercel.app
+        </a>
+        <a
+          className="mt-3"
           href="https://shop-next-shariflo.vercel.app/"
           style={{ color: "#0096f5" }}
         >
           https://shop-next-shariflo.vercel.app
         </a>
+       
       </div>
       <div className="d-flex flex-column justify-content-center align-items-center px-3 mt-5">
         <p className="yekanBold font80 m-0 text-center">
