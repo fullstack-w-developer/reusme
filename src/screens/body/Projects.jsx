@@ -26,16 +26,15 @@ const Projects = () => {
           href="https://nextjs-pinterest.vercel.app/"
           style={{ color: "#0096f5" }}
         >
-         https://nextjs-pinterest.vercel.app
+          https://nextjs-pinterest.vercel.app
         </a>
         <a
           className="mt-3"
-          href="https://shop-next-shariflo.vercel.app/"
+          href="https://shop-next-shariflo.vercel.app"
           style={{ color: "#0096f5" }}
         >
           https://shop-next-shariflo.vercel.app
         </a>
-       
       </div>
       <div className="d-flex flex-column justify-content-center align-items-center px-3 mt-5">
         <p className="yekanBold font80 m-0 text-center">
@@ -76,18 +75,16 @@ const Projects = () => {
         </p>
         <a
           className="mt-2"
-          href=" https://mahdi-shariflo.github.io/azmoon-online"
+          href="https://mahdi-shariflo.github.io/chat"
           style={{ color: "#0096f5" }}
         >
-          https://mahdi-shariflo.github.io/azmoon-online
+          https://mahdi-shariflo.github.io/chat
         </a>
       </div>
 
-    
-          <p className="yekanBold text-danger font75 text-center mt-3 m-0">
-            {t("link_five_work_")}
-          </p>
- 
+      <p className="yekanBold text-danger font75 text-center mt-3 m-0">
+        {t("link_five_work_")}
+      </p>
     </div>
   );
 };

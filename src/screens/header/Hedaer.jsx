@@ -5,7 +5,7 @@ import Typical from "react-typical";
 import Instagram from "./../../assets/instagram.svg";
 import Telegram from "./../../assets/telegram.svg";
 import Skype from "./../../assets/skype.svg";
-import Image from "./../../assets/image.jpg";
+import Img from "./../../assets/img.jpeg";
 import MyResume from "./../../assets/MyReusme.pdf";
 import LanguageIcon from "@mui/icons-material/Language";
 import { useTranslation } from "react-i18next";
@@ -150,7 +150,7 @@ const Hedaer = () => {
               </div>
             </div>
             <div className="container_avatar">
-              <Avatar  sx={{ width: 170, height: 170 }} />
+              <Avatar src={Img}  sx={{ width: 170, height: 170 }} />
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import Reusme from "./Reusme";
 import Works from "./Works";
 import ContentMe from "./ContentMe";
 import Scrollspy from "react-scrollspy";
-import Img from "./../../assets/img.jpg";
+import Img from "./../../assets/img.jpeg";
 import { useTranslation } from "react-i18next";
 
 const Body = () => {
