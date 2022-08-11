@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/reusme/static/css/main.3807f2ad.chunk.css",
-    "main.js": "/reusme/static/js/main.ac1ba82c.chunk.js",
-    "main.js.map": "/reusme/static/js/main.ac1ba82c.chunk.js.map",
+    "main.css": "/reusme/static/css/main.5aa6a559.chunk.css",
+    "main.js": "/reusme/static/js/main.5bfc07dc.chunk.js",
+    "main.js.map": "/reusme/static/js/main.5bfc07dc.chunk.js.map",
     "runtime-main.js": "/reusme/static/js/runtime-main.bc814923.js",
     "runtime-main.js.map": "/reusme/static/js/runtime-main.bc814923.js.map",
     "static/css/2.d2029593.chunk.css": "/reusme/static/css/2.d2029593.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.5bff89a2.chunk.js.map": "/reusme/static/js/2.5bff89a2.chunk.js.map",
     "index.html": "/reusme/index.html",
     "static/css/2.d2029593.chunk.css.map": "/reusme/static/css/2.d2029593.chunk.css.map",
-    "static/css/main.3807f2ad.chunk.css.map": "/reusme/static/css/main.3807f2ad.chunk.css.map",
+    "static/css/main.5aa6a559.chunk.css.map": "/reusme/static/css/main.5aa6a559.chunk.css.map",
     "static/js/2.5bff89a2.chunk.js.LICENSE.txt": "/reusme/static/js/2.5bff89a2.chunk.js.LICENSE.txt",
     "static/media/1.b69240ab.webp": "/reusme/static/media/1.b69240ab.webp",
     "static/media/2.c07d9b5b.webp": "/reusme/static/media/2.c07d9b5b.webp",
@@ -28,8 +28,7 @@
     "static/media/css.3ec32022.svg": "/reusme/static/media/css.3ec32022.svg",
     "static/media/getFetch.cjs": "/reusme/static/media/getFetch.582d29c4.cjs",
     "static/media/html.c1bb84e0.svg": "/reusme/static/media/html.c1bb84e0.svg",
-    "static/media/image.ee0d5eb6.jpg": "/reusme/static/media/image.ee0d5eb6.jpg",
-    "static/media/img.741bbb1a.jpg": "/reusme/static/media/img.741bbb1a.jpg",
+    "static/media/img.11aaa43a.jpeg": "/reusme/static/media/img.11aaa43a.jpeg",
     "static/media/instagram.7e5e2865.svg": "/reusme/static/media/instagram.7e5e2865.svg",
     "static/media/javascript.ba40d6a9.svg": "/reusme/static/media/javascript.ba40d6a9.svg",
     "static/media/material.741a52f5.svg": "/reusme/static/media/material.741a52f5.svg",
@@ -45,7 +44,7 @@
     "static/js/runtime-main.bc814923.js",
     "static/css/2.d2029593.chunk.css",
     "static/js/2.5bff89a2.chunk.js",
-    "static/css/main.3807f2ad.chunk.css",
-    "static/js/main.ac1ba82c.chunk.js"
+    "static/css/main.5aa6a559.chunk.css",
+    "static/js/main.5bfc07dc.chunk.js"
   ]
 }
