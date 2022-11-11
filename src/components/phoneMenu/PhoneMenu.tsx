@@ -1,5 +1,9 @@
 import { useEffect, useContext } from "react";
-import { ButtonGroup, DropdownButton, Dropdown } from "react-bootstrap";
+import {
+  ButtonGroup,
+  DropdownButton,
+  Dropdown,
+} from "react-bootstrap";
 import DehazeIcon from "@mui/icons-material/Dehaze";
 import "./style.css";
 import useToggle from "../../customHook/useToggle";
@@ -11,7 +15,7 @@ import i18next from "i18next";
 
 const PhoneMenu = () => {
   const { toggle, handleToggle } = useToggle();
-  
+
   const langages = [
     {
       code: "fa",
@@ -25,12 +29,15 @@ const PhoneMenu = () => {
       name: "English",
       country_code: "gb",
       id: 2,
-    }
+    },
   ];
-  const currentLanguageCode = cookies.get("i18next") || "en";
-  const currentLanguage = langages.find((l) => l.code === currentLanguageCode);
+  const currentLanguageCode =
+    cookies.get("i18next") || "en";
+  const currentLanguage = langages.find(
+    (l) => l.code === currentLanguageCode
+  );
   const { t } = useTranslation();
-  const {setIsRtl } = useContext(checkrtl);
+  const { setIsRtl } = useContext(checkrtl);
 
   useEffect(() => {
     document.title = t("app_title");
@@ -40,41 +47,57 @@ const PhoneMenu = () => {
     <div className="phone_menu">
       <div className="d-flex flex-row-reverse justify-content-between align-items-center">
         <div className="mx-3 pt-2 " onClick={handleToggle}>
-          <DehazeIcon sx={{ width: 40, height: 40 }} className="text-white" />
+          <DehazeIcon
+            sx={{ width: 40, height: 40 }}
+            className="text-white"
+          />
         </div>
         <ButtonGroup>
           <DropdownButton
-            title={<LanguageIcon sx={{ width: 30, height: 30,marginTop:"10px" }} />}
+            title={
+              <LanguageIcon
+                sx={{
+                  width: 30,
+                  height: 30,
+                  marginTop: "10px",
+                }}
+              />
+            }
             className="button_toggle_langage"
           >
             {langages.map((item, index) => (
-              <>
-                <Dropdown.Item
-                  key={index + 1}
-                  onClick={() => {
-                    setIsRtl(item.code);
-                    i18next.changeLanguage(item.code);
-                  }}
-                  className="yekanBold"
-                >
-                  <div>
-                    <span
-                      className={`mx-2 flag-icon flag-icon-${item.country_code}`}
-                    ></span>
-                    {item.name}
-                  </div>
-                </Dropdown.Item>
-              </>
+              <Dropdown.Item
+                key={item.code}
+                onClick={() => {
+                  setIsRtl(item.code);
+                  i18next.changeLanguage(item.code);
+                }}
+                className="yekanBold"
+              >
+                <div>
+                  <span
+                    className={`mx-2 flag-icon flag-icon-${item.country_code}`}
+                  ></span>
+                  {item.name}
+                </div>
+              </Dropdown.Item>
             ))}
           </DropdownButton>
         </ButtonGroup>
       </div>
       <div
         className={`container_menu_phone`}
-        style={toggle ? { transform: "translateX(0)" } : undefined}
+        style={
+          toggle
+            ? { transform: "translateX(0)" }
+            : undefined
+        }
       >
         <div className="mx-3 pt-2" onClick={handleToggle}>
-          <DehazeIcon sx={{ width: 40, height: 40 }} className="text-white" />
+          <DehazeIcon
+            sx={{ width: 40, height: 40 }}
+            className="text-white"
+          />
         </div>
         <div className="container_menu">
           <ul>

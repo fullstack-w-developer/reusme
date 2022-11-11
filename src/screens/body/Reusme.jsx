@@ -38,7 +38,7 @@ const Reusme = () => {
               >
                 <div className="container__icons_tab">
                   <LaptopChromebookIcon />
-                  <AccountTreeIcon />
+                  {/* <AccountTreeIcon /> */}
                   <ColorLensIcon />
                 </div>
                 <div
@@ -57,11 +57,11 @@ const Reusme = () => {
                         {t("Skills")}
                       </Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    {/* <Nav.Item>
                       <Nav.Link eventKey="four">
                         {t("Projects")}
                       </Nav.Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
                     <Nav.Item>
                       <Nav.Link eventKey="five">
                         {t("experience_Work")}

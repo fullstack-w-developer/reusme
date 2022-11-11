@@ -1,5 +1,9 @@
 import { useEffect, useContext } from "react";
-import { ButtonGroup, DropdownButton, Dropdown } from "react-bootstrap";
+import {
+  ButtonGroup,
+  DropdownButton,
+  Dropdown,
+} from "react-bootstrap";
 import { Avatar } from "@mui/material";
 import Typical from "react-typical";
 import Instagram from "./../../assets/instagram.svg";
@@ -33,10 +37,13 @@ const Hedaer = () => {
       id: 2,
     },
   ];
-  const currentLanguageCode = cookies.get("i18next") || "en";
-  const currentLanguage = langages.find((l) => l.code === currentLanguageCode);
+  const currentLanguageCode =
+    cookies.get("i18next") || "en";
+  const currentLanguage = langages.find(
+    (l) => l.code === currentLanguageCode
+  );
   const { t } = useTranslation();
-  const {setIsRtl } = useContext(checkrtl);
+  const { setIsRtl } = useContext(checkrtl);
 
   useEffect(() => {
     document.body.dir = currentLanguage.dir || "ltr";
@@ -51,32 +58,30 @@ const Hedaer = () => {
       <header>
         <div className="header">
           <nav className="menu_header">
-            <ButtonGroup>
+            {/* <ButtonGroup>
               <DropdownButton
                 title={<LanguageIcon />}
                 className="button_toggle_langage"
               >
                 {langages.map((item, index) => (
-                  <>
-                    <Dropdown.Item
-                      key={index + 1}
-                      onClick={() => {
-                        setIsRtl(item.code);
-                        i18next.changeLanguage(item.code);
-                      }}
-                      className="yekanBold"
-                    >
-                      <div>
-                        <span
-                          className={`mx-2 flag-icon flag-icon-${item.country_code}`}
-                        ></span>
-                        {item.name}
-                      </div>
-                    </Dropdown.Item>
-                  </>
+                  <Dropdown.Item
+                    key={item.code}
+                    onClick={() => {
+                      setIsRtl(item.code);
+                      i18next.changeLanguage(item.code);
+                    }}
+                    className="yekanBold"
+                  >
+                    <div>
+                      <span
+                        className={`mx-2 flag-icon flag-icon-${item.country_code}`}
+                      ></span>
+                      {item.name}
+                    </div>
+                  </Dropdown.Item>
                 ))}
               </DropdownButton>
-            </ButtonGroup>
+            </ButtonGroup> */}
             <ul>
               <li>{t("logo")}</li>
               <li>
@@ -117,7 +122,6 @@ const Hedaer = () => {
                 </h6>
               </div>
               <div className="typecal_write">
-                
                 <Typical
                   steps={[
                     t("item1_typecal"),
@@ -140,7 +144,9 @@ const Hedaer = () => {
               </div>
               <div className="container__btn">
                 <button>
-                  <a href="#aboutme">{t("buttton_header1")}</a>
+                  <a href="#aboutme">
+                    {t("buttton_header1")}
+                  </a>
                 </button>
                 <button>
                   <a href={MyResume} download="MyResume">
@@ -150,7 +156,10 @@ const Hedaer = () => {
               </div>
             </div>
             <div className="container_avatar">
-              <Avatar src={Img}  sx={{ width: 170, height: 170 }} />
+              <Avatar
+                src={Img}
+                sx={{ width: 170, height: 170 }}
+              />
             </div>
           </div>
         </div>

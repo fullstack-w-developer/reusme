@@ -4,6 +4,8 @@ import Html from "./../../assets/html.svg";
 import Css from "./../../assets/css.svg";
 import JavaScript from "./../../assets/javascript.svg";
 import ReactIcon from "./../../assets/react.svg";
+import ReduxIcon from "./../../assets/redux.svg";
+import RecoilIocn from "./../../assets/recoil.svg";
 import Bootstrap from "./../../assets/bootstrap.svg";
 import Material from "./../../assets/material.svg";
 import Node from "./../../assets/node.svg";
@@ -65,6 +67,21 @@ const Skills = () => {
           src={Tailwind}
           name="Tailwind Css"
           alt="Tailwind"
+        />
+      </div>
+      <div className="d-flex justify-content-around align-items-center">
+        {/* material ui */}
+        <ItemSkills
+          src={ReduxIcon}
+          name="Redux"
+          alt="Redux"
+        />
+
+        {/* node.js */}
+        <ItemSkills
+          src={RecoilIocn}
+          name="Recoil"
+          alt="Recoil"
         />
       </div>
     </div>

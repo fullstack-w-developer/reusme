@@ -1,20 +1,20 @@
 import { Card } from "react-bootstrap";
 
-const CardSlides = ({ src,title,subTitle }) => {
+const CardSlides = ({ src,title,href }) => {
   return (
     <div className="container__card">
       <Card className="card__slides">
         <Card.Img
           variant="top"
           src={src}
-          style={{  height: "10rem" , borderBottom:"1px solid #eee"}}
+          style={{  height: "12rem" ,objectFit:"contain", borderBottom:"1px solid #eee"}}
         />
-        <Card.Body>
-          <Card.Title className="IRANYekanExtraBold colorGoodNight font85 text-end">{ title}</Card.Title>
-          <Card.Text className="yekanBold colorGoodNight font75  text-end">
-           {subTitle}
-          </Card.Text>
-        </Card.Body>
+        <div className="card-details mt-3">
+          <Card.Title className="IRANYekanExtraBold mt-1  colorGoodNight font75">{ title}</Card.Title>
+          <a href={href} className="yekanBold mt-1 font75">
+           برای دیدن جزئیات کلیک نمایید
+          </a>
+        </div>
       </Card>
     </div>
   );

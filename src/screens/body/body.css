@@ -362,7 +362,7 @@
   width: 1.8rem;
   height: 1.8rem;
   margin: 0 0.4rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 .skill_bootstrap {
   width: 1.4rem;
