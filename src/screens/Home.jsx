@@ -6,8 +6,8 @@ const Home = () => {
   return (
     <div>
   
-      <Header />
-      {/* <Body /> */}
+      {/* <Header /> */}
+      <Body />
     </div>
   );
 };
