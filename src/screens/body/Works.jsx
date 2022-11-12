@@ -68,8 +68,8 @@ const Works = () => {
   return (
     <>
       <div className="container__text_reusme">
-        <h3>{t("show_works")}</h3>
-        <p>{t("details_works")}</p>
+        <h3>نمونه کارها</h3>
+        <p>جزئیات</p>
       </div>
       <div className="show_item_works">
         <div>

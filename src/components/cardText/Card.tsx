@@ -1,6 +1,4 @@
-import { useContext, useState } from "react";
 import "./cardText.css";
-import i18next from "i18next";
 import cookies from "js-cookie";
 
 type propsCard = {
@@ -10,7 +8,6 @@ type propsCard = {
   setText: React.Dispatch<boolean>;
 };
 const Card = ({ title, subTitle, text, setText }: propsCard) => {
-  const currentLanguagesCode = cookies.get("i18next") || "en";
 
   const ShowTextFun = () => setText(true);
   return (
@@ -22,9 +19,8 @@ const Card = ({ title, subTitle, text, setText }: propsCard) => {
         <div>
           <div
             className={`${
-              currentLanguagesCode === "en"
-                ? "animation-text-aboutMe-en"
-                : "animation-text-aboutMe-fa"
+           
+                "animation-text-aboutMe-fa"
             }`}
           >
             <h5
@@ -36,11 +32,9 @@ const Card = ({ title, subTitle, text, setText }: propsCard) => {
             </h5>
           </div>
           <div
-            className={`${
-              currentLanguagesCode === "en"
-                ? "animation-text-explainMe-en"
-                : "animation-text-explainMe-fa"
-            }`}
+            className={`
+                 animation-text-explainMe-fa
+            `}
           >
             <p className="yekanBold draculaOrchid">{subTitle}</p>
           </div>

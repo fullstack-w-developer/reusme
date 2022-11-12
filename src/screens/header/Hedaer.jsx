@@ -1,9 +1,4 @@
-import { useEffect, useContext } from "react";
-import {
-  ButtonGroup,
-  DropdownButton,
-  Dropdown,
-} from "react-bootstrap";
+import { useEffect } from "react";
 import { Avatar } from "@mui/material";
 import Typical from "react-typical";
 import Instagram from "./../../assets/instagram.svg";
@@ -11,44 +6,15 @@ import Telegram from "./../../assets/telegram.svg";
 import Skype from "./../../assets/skype.svg";
 import Img from "./../../assets/img.jpeg";
 import MyResume from "./../../assets/MyReusme.pdf";
-import LanguageIcon from "@mui/icons-material/Language";
-import { useTranslation } from "react-i18next";
+import PhoneMenu from "../../components/phoneMenu/PhoneMenu";
 import Scrollspy from "react-scrollspy";
-import cookies from "js-cookie";
-import i18next from "i18next";
 
 import "./header.css";
-import PhoneMenu from "../../components/phoneMenu/PhoneMenu";
-import { checkrtl } from "./../../context/CheckRtl";
 
 const Hedaer = () => {
-  const langages = [
-    {
-      code: "fa",
-      name: "فارسی",
-      country_code: "ir",
-      dir: "rtl",
-      id: 1,
-    },
-    {
-      code: "en",
-      name: "English",
-      country_code: "gb",
-      id: 2,
-    },
-  ];
-  const currentLanguageCode =
-    cookies.get("i18next") || "en";
-  const currentLanguage = langages.find(
-    (l) => l.code === currentLanguageCode
-  );
-  const { t } = useTranslation();
-  const { setIsRtl } = useContext(checkrtl);
-
   useEffect(() => {
-    document.body.dir = currentLanguage.dir || "ltr";
-    document.title = t("app_title");
-  }, [currentLanguage, t]);
+    document.title = "رزومه";
+  }, []);
 
   return (
     <Scrollspy
@@ -58,46 +24,22 @@ const Hedaer = () => {
       <header>
         <div className="header">
           <nav className="menu_header">
-            {/* <ButtonGroup>
-              <DropdownButton
-                title={<LanguageIcon />}
-                className="button_toggle_langage"
-              >
-                {langages.map((item, index) => (
-                  <Dropdown.Item
-                    key={item.code}
-                    onClick={() => {
-                      setIsRtl(item.code);
-                      i18next.changeLanguage(item.code);
-                    }}
-                    className="yekanBold"
-                  >
-                    <div>
-                      <span
-                        className={`mx-2 flag-icon flag-icon-${item.country_code}`}
-                      ></span>
-                      {item.name}
-                    </div>
-                  </Dropdown.Item>
-                ))}
-              </DropdownButton>
-            </ButtonGroup> */}
             <ul>
-              <li>{t("logo")}</li>
+              <li>مهدی شریفلو</li>
               <li>
-                <a href="#Home">{t("menuitem1")}</a>
+                <a href="#Home">خانه</a>
               </li>
               <li>
-                <a href="#aboutme">{t("menuitem2")}</a>
+                <a href="#aboutme">درباره‌ی من</a>
               </li>
               <li>
-                <a href="#reusme"> {t("menuitem3")}</a>
+                <a href="#reusme">رزومه</a>
               </li>
               <li>
-                <a href="#works">{t("menuitem4")}</a>
+                <a href="#works">نمونه کارها</a>
               </li>
               <li>
-                <a href="#contentme">{t("menuitem5")}</a>
+                <a href="#contentme">تماس با من</a>
               </li>
             </ul>
           </nav>
@@ -118,19 +60,19 @@ const Hedaer = () => {
               </div>
               <div className="mt-3">
                 <h6 className="text-white yekanBold text-center">
-                  {t("text_interduce")}
+                سلام، من مهدی شریفلو هستم
                 </h6>
               </div>
               <div className="typecal_write">
                 <Typical
                   steps={[
-                    t("item1_typecal"),
+                    "جاوا اسکریپت",
                     4000,
-                    t("item2_typecal"),
+                    "ری اکت و نکست جی اس",
                     4000,
-                    t("item3_typecal"),
+                    "ری اکت تایپ اسکریپت",
                     4000,
-                    t("item4_typecal"),
+                    "وب اپلیکیشن 😅",
                     4000,
                   ]}
                   loop={Infinity}
@@ -139,18 +81,17 @@ const Hedaer = () => {
               </div>
               <div>
                 <h6 className="text-white yekanBold text-center px-1">
-                  {t("text_header_item")}
+                  ساخت وب سایت ها، وب اپلیکیشن ها و موبایل
+                  های اپلیکیشنی
                 </h6>
               </div>
               <div className="container__btn">
                 <button>
-                  <a href="#aboutme">
-                    {t("buttton_header1")}
-                  </a>
+                  <a href="#aboutme">من اینجام</a>
                 </button>
                 <button>
                   <a href={MyResume} download="MyResume">
-                    {t("buttton_header2")}
+                    رزومه
                   </a>
                 </button>
               </div>

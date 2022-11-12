@@ -17,8 +17,8 @@ const Body = () => {
     >
       <div id="aboutme">
         <div className="container__text">
-          <h3>{t("about_me")}</h3>
-          <p>{t("Property")}</p>
+          <h3>درباره‌ی من</h3>
+          <p>مشخصات</p>
         </div>
         <div className="show_item">
           <div>
@@ -28,11 +28,22 @@ const Body = () => {
         <div className="about_me">
           <div>
             <div className="container__avatar">
-              <Avatar sx={{ width: 1, height: 1 }} src={Img} />
+              <Avatar
+                sx={{ width: 1, height: 1 }}
+                src={Img}
+              />
             </div>
             <div className="contanier_textarea">
               <p>
-             {t("property_text")}
+                سلام، مهدی شریفلو به توسعه دهنده‌ی Raect و
+                Next.js .فعالیت دارم. به مدت یک سال در شرکت
+                هوش و پدیده فناوی مشغول کار آموزی بودم و طی
+                این مدت یه اپلیکیششن و وب سایت برای این شرکت
+                ایجاد کردم.کار آموزی در این شرکت به من منظم
+                بودن و کار کار گروهی را داد و مهارت‌های
+                زیادی را، از جمله کار با استیت منیجر های
+                مختلف و Rest Api و کتابخانه و پکیج های زیادی
+                را کسب کردم
               </p>
             </div>
           </div>

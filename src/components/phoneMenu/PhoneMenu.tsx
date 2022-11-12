@@ -37,7 +37,7 @@ const PhoneMenu = () => {
     (l) => l.code === currentLanguageCode
   );
   const { t } = useTranslation();
-  const { setIsRtl } = useContext(checkrtl);
+
 
   useEffect(() => {
     document.title = t("app_title");
@@ -52,38 +52,7 @@ const PhoneMenu = () => {
             className="text-white"
           />
         </div>
-        <ButtonGroup>
-          <DropdownButton
-            title={
-              <LanguageIcon
-                sx={{
-                  width: 30,
-                  height: 30,
-                  marginTop: "10px",
-                }}
-              />
-            }
-            className="button_toggle_langage"
-          >
-            {langages.map((item, index) => (
-              <Dropdown.Item
-                key={item.code}
-                onClick={() => {
-                  setIsRtl(item.code);
-                  i18next.changeLanguage(item.code);
-                }}
-                className="yekanBold"
-              >
-                <div>
-                  <span
-                    className={`mx-2 flag-icon flag-icon-${item.country_code}`}
-                  ></span>
-                  {item.name}
-                </div>
-              </Dropdown.Item>
-            ))}
-          </DropdownButton>
-        </ButtonGroup>
+     
       </div>
       <div
         className={`container_menu_phone`}

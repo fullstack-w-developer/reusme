@@ -16,7 +16,6 @@ import ItemSkills from "./ItemSkills";
 import { checkrtl } from "./../../context/CheckRtl";
 
 const Skills = () => {
-  const { isRtl } = useContext(checkrtl);
   return (
     <div className="container_skills">
       <div className="d-flex justify-content-around align-items-center">

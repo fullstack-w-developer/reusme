@@ -10,8 +10,8 @@ const ContentMe = () => {
   return (
     <div className="container___contentme">
       <div className="container__text_reusme">
-        <h3>{t("contect_me")}</h3>
-        <p>{t("details_content_me")}</p>
+        <h3>تماس با ما</h3>
+        <p>جزئیات</p>
       </div>
       <div className="show_item_contentMe">
         <div>
@@ -22,7 +22,7 @@ const ContentMe = () => {
         <div>
           <div>
             <h5 className="text-white IRANYekanExtraBold pb-2">
-              {t("Social_Networks")}
+              شبکه های اجتمائی
             </h5>
             <div className=" container__icons_content_me ">
               <a href="https://www.instagram.com/mahdi_shariflo/">
@@ -38,7 +38,7 @@ const ContentMe = () => {
           </div>
           <div className="content_with_email_phone">
             <h5 className="text-white IRANYekanExtraBold text-center pb-2">
-              {t("email_phonenumber")}
+              ایمیل و شماره تلفن
             </h5>
             <p>
               {" "}
@@ -46,14 +46,14 @@ const ContentMe = () => {
                 href="mailto:mahdishariflodeveloper@gmail.com"
                 className="text-center text-white IRANYekanReglour m-0"
               >
-                {t("email")} : <span>mahdishariflodeveloper@gmail.com</span>
+               ایمیل: <span>mahdishariflodeveloper@gmail.com</span>
               </a>
             </p>
             <a
               href="tel:09052549459"
               className="text-center text-white IRANYekanReglour m-0 hover:text-gray-500"
             >
-              {t("phonenumber")} : <span>9052549459</span>
+              تلفن: <span>9052549459</span>
             </a>
           </div>
         </div>
