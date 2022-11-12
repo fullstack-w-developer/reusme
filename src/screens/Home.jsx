@@ -7,7 +7,7 @@ const Home = () => {
     <div>
   
       <Header />
-      <Body />
+      {/* <Body /> */}
     </div>
   );
 };
