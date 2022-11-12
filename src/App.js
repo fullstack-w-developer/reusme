@@ -6,7 +6,8 @@ import { CheckRtl } from "./context/CheckRtl";
 export default function App() {
   return (
     <CheckRtl>
-      <Home />
+      {/* <Home /> */}
+      <h1>rhisssss</h1>
     </CheckRtl>
   );
 }
