@@ -5,9 +5,9 @@ import Body from "./body/Body";
 const Home = () => {
   return (
     <div>
-      <h1>this is thhhhhhhhhhhhhhhhhhhhhhhhhhhhhest</h1>
-      {/* <Header />
-      <Body /> */}
+  
+      <Header />
+      <Body />
     </div>
   );
 };
