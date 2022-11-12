@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reusme/static/css/main.80a3d167.chunk.css",
-    "main.js": "/reusme/static/js/main.4c4d0d89.chunk.js",
-    "main.js.map": "/reusme/static/js/main.4c4d0d89.chunk.js.map",
+    "main.js": "/reusme/static/js/main.312368c7.chunk.js",
+    "main.js.map": "/reusme/static/js/main.312368c7.chunk.js.map",
     "runtime-main.js": "/reusme/static/js/runtime-main.bc814923.js",
     "runtime-main.js.map": "/reusme/static/js/runtime-main.bc814923.js.map",
     "static/css/2.d2029593.chunk.css": "/reusme/static/css/2.d2029593.chunk.css",
@@ -43,6 +43,6 @@
     "static/css/2.d2029593.chunk.css",
     "static/js/2.46cac945.chunk.js",
     "static/css/main.80a3d167.chunk.css",
-    "static/js/main.4c4d0d89.chunk.js"
+    "static/js/main.312368c7.chunk.js"
   ]
 }
