@@ -66,6 +66,8 @@ const Hedaer = () => {
               <div className="typecal_write">
                 <Typical
                   steps={[
+                    "مشاهده‌ی نمونه کار ها در اینستاگرام من",
+                    4000,
                     "جاوا اسکریپت",
                     4000,
                     "ری اکت و نکست جی اس",

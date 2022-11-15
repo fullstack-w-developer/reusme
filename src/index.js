@@ -1,9 +1,5 @@
-import React, { Suspense } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-import i18next from "i18next";
-import { initReactI18next } from "react-i18next";
-import HttpApi from "i18next-http-backend";
-import LanguageDetector from "i18next-browser-languagedetector";
 import "bootstrap/dist/js/bootstrap.js";
 import "./index.css";
 import App from "./App";
@@ -11,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "flag-icon-css/css/flag-icon.min.css";
 import "./../node_modules/slick-carousel/slick/slick.css";
 import "./../node_modules/slick-carousel/slick/slick-theme.css";
-// i18next
+
 //   .use(HttpApi)
 //   .use(LanguageDetector)
 //   .use(initReactI18next)
