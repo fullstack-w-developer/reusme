@@ -70,21 +70,21 @@ const PhoneMenu = () => {
         </div>
         <div className="container_menu">
           <ul>
-            <h4>{t("logo")}</h4>
+            <h4>مهدی شریفلو</h4>
             <li onClick={handleToggle}>
-              <a href="#home">{t("menuitem1")}</a>
+              <a href="#home">خانه</a>
             </li>
             <li onClick={handleToggle}>
-              <a href="#aboutme">{t("menuitem2")}</a>
+              <a href="#aboutme">درباره‌ی من</a>
             </li>
             <li onClick={handleToggle}>
-              <a href="#reusme"> {t("menuitem3")}</a>
+              <a href="#reusme">رزومه</a>
             </li>
             <li onClick={handleToggle}>
-              <a href="#works"> {t("menuitem4")}</a>
+              <a href="#works">نمونه کار ها</a>
             </li>
             <li onClick={handleToggle}>
-              <a href="#contentme"> {t("menuitem5")}</a>
+              <a href="#contentme">تماس با من</a>
             </li>
           </ul>
         </div>
